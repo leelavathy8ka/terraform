@@ -22,7 +22,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
          aws-region: us-east-2
-         role-to-assume: arn:aws:iam::xxxxxxxxxxxx:role/xxxxxxn
+         role-to-assume: arn:aws:iam::802397064319:user/leelavathy8ka@gmail.com
 
     - run: aws sts get-caller-identity 
      
